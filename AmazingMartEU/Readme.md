@@ -1,8 +1,8 @@
 # Query to find the best perfoming month/year for each product category in each region
 We are looking to find a list of month-year for each product category in each region that has the highest target attainment percentage (ie: Rank 1)
 ## Tables
-1. **amazing_eu** - Table that contains customers detail (order_id, order_date,customer_name,region etc..)
-2. **amazing_eu_order** - Table that contains customers order details (order_id,product_name,category,quantity,sales etc..)
+1. **amazing_eu** - Table that contains customer details (order_id, order_date,customer_name,region etc..)
+2. **amazing_eu_order** - Table that contains customer order details (order_id,product_name,category,quantity,sales etc..)
 3. **amazing_eu_target** - Table that contains sales target data for each month-year (order_month_year,target_sales)
 
 ## Brief Procedure
