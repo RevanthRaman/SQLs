@@ -5,7 +5,7 @@ We are looking to find a list of month-year for each product category in each re
 2. **amazing_eu_order** - Table that contains customers order details (order_id,product_name,category,quantity,sales etc..)
 3. **amazing_eu_target** - Table that contains sales target data for each month-year (order_month_year,target_sales)
 
-## Breif Procedures
+## Brief Procedure
 - Extract first three letters from month name and last two numbers from year in column 'order_date' and concat them as 'Month-year' in amaing_eu table.
 - Remove special characters like "$" & "," from columns sales and cast into float data type in amaing_eu_order table.
 - Create an aggregated table using the above tables that gives sum(sales) for each month-year,product_category and region using left join.
