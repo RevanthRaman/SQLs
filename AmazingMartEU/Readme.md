@@ -7,7 +7,7 @@ We are looking to find a list of month-year for each product category in each re
 
 ## Brief Procedure
 - Extract first three letters from month name and last two numbers from year in column 'order_date' and concat them as 'Month-year' in amaing_eu table.
-- Remove special characters like "$" & "," from columns sales and cast into float data type in amaing_eu_order table.
+- Remove special characters like "$" and "," from columns sales and cast into float data type in amaing_eu_order table.
 - Create an aggregated table using the above tables that gives sum(sales) for each month-year,product_category and region using left join.
 - Combine the aggregated table with amazing_eu_target table using left join. Create a column target_attainment% by dividing sum(sales) by target_sales.
 - Rank the target_attrainment percentage by descending order and filter for rank = 1 for each region in each product category.
